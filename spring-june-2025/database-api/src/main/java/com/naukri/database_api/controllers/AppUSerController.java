@@ -12,6 +12,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/api/v1/db/user")
 public class AppUSerController {
+
     AppUserRepository appUserRepository;
     @Autowired
     public AppUSerController(AppUserRepository appUserRepository){
